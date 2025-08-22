@@ -15,6 +15,13 @@
       "when": 1755879650154,
       "tag": "0001_plain_ogun",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755884808747,
+      "tag": "0002_productive_archangel",
+      "breakpoints": true
     }
   ]
 }

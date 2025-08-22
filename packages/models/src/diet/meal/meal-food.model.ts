@@ -3,8 +3,8 @@ import z from "zod";
 
 export const MEAL_FOOD_SCHEMA = z.object({
 	id: z.number().int().positive(),
-	dietId: z.number().int().positive(),
-	amount: z.number().positive(),
+	mealId: z.number().int().positive(),
+	amount: z.number().positive(), // (g)
 
 	// Optional links
 	foodId: z.number().int().positive().nullable(),

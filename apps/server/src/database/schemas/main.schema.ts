@@ -1,6 +1,9 @@
 export { dietSchema } from "@database/schemas/main/tables/diet/diet.schema";
+export { dishFoodTable } from "@database/schemas/main/tables/diet/dish/dish-food.table";
+export { dishTable } from "@database/schemas/main/tables/diet/dish/dish.table";
 export { foodTable } from "@database/schemas/main/tables/diet/food.table";
-export { mealTable } from "@database/schemas/main/tables/diet/meal.table";
+export { mealFoodTable } from "@database/schemas/main/tables/diet/meal/meal-food.table";
+export { mealTable } from "@database/schemas/main/tables/diet/meal/meal.table";
 export { identitySchema } from "@database/schemas/main/tables/identity/identity.schema";
 export { permissionTable } from "@database/schemas/main/tables/identity/permission.table";
 export { rolePermissionTable } from "@database/schemas/main/tables/identity/role-permission.table";

@@ -1,7 +1,7 @@
 import { timestamps } from "@database/common/timestamps";
 import type { DbModeledColumnsDefinition } from "@database/schemas/db-modeled-columns-definition.type";
 import { dietSchema, userTable } from "@database/schemas/main.schema";
-import { MealModel } from "@shared/models";
+import type { MealModel } from "@shared/models";
 import { integer, timestamp } from "drizzle-orm/pg-core";
 
 type ColumnsModel = DbModeledColumnsDefinition<MealModel>;
@@ -20,3 +20,7 @@ export const mealTable = dietSchema.table("meal", {
 	mealTime: timestamp().defaultNow().notNull(),
 	...timestamps,
 } satisfies ColumnsModel);
+
+export type MealSelect = typeof mealTable.$inferSelect;
+export type MealInsert = typeof mealTable.$inferInsert;
+export type MealUpdate = Partial<MealInsert>;
