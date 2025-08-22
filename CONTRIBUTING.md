@@ -1,6 +1,6 @@
-# 🤝 Contributing to NestFlux
+# 🤝 Contributing to Daicare
 
-We're thrilled that you're interested in contributing to NestFlux! This document provides guidelines for contributing to this TypeScript monorepo scaffold project.
+We're thrilled that you're interested in contributing to Daicare! This document provides guidelines for contributing to this TypeScript monorepo scaffold project.
 
 ## 🌟 Welcome Contributors!
 
@@ -8,7 +8,7 @@ We're thrilled that you're interested in contributing to NestFlux! This document
 
 ## 🎯 Project Philosophy
 
-NestFlux is designed to be a **generic, reusable scaffold** for TypeScript full-stack applications. When contributing, please keep these core principles in mind:
+Daicare is designed to be a **generic, reusable scaffold** for TypeScript full-stack applications. When contributing, please keep these core principles in mind:
 
 ### ✅ What We Welcome
 - **🐛 Bug fixes** - Fixing issues in existing functionality
@@ -152,12 +152,12 @@ For new features, please consider:
 
 ## 📄 License
 
-By contributing to NestFlux, you agree that your contributions will be licensed under the MIT License.
+By contributing to Daicare, you agree that your contributions will be licensed under the MIT License.
 
 ---
 
 ## 🚀 Thank You!
 
-Your contributions help make NestFlux a better scaffold for the entire TypeScript community. Whether you're fixing a typo or adding a major feature, every contribution matters!
+Your contributions help make Daicare a better scaffold for the entire TypeScript community. Whether you're fixing a typo or adding a major feature, every contribution matters!
 
 **Happy coding! 🎉**

@@ -6,19 +6,19 @@ import * as pkg from "./package.json";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-	title: "NestFlux",
-	tagline: "ReactJS + NestJS made easy",
+	title: "daicare",
+	tagline: "A personal health management and analytics system",
 	favicon: "img/favicon.ico",
 
 	// Set the production url of your site here
 	url: pkg.homepage,
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/NestFlux/",
+	baseUrl: "/daicare/",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	projectName: "NestFlux", // Usually your repo name.
+	projectName: "Daicare", // Usually your repo name.
 	organizationName: "TheMineWay", // Usually your GitHub org/user name.
 	trailingSlash: false,
 
@@ -72,9 +72,9 @@ const config: Config = {
 		// Replace with your project's social card
 		image: "img/social-card.png",
 		navbar: {
-			title: "NestFlux",
+			title: "daicare",
 			logo: {
-				alt: "NestFlux logo",
+				alt: "Daicare logo",
 				src: "img/logo.png",
 			},
 			items: [
@@ -110,7 +110,7 @@ const config: Config = {
 					],
 				},
 			],
-			copyright: `MIT Licensed ${new Date().getFullYear()} NestFlux. Built with Docusaurus and love.`,
+			copyright: `MIT Licensed ${new Date().getFullYear()} Daicare. Built with Docusaurus and love.`,
 		},
 		prism: {
 			theme: prismThemes.github,
