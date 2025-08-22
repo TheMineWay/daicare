@@ -72,7 +72,7 @@ const config: Config = {
 		// Replace with your project's social card
 		image: "img/social-card.png",
 		navbar: {
-			title: "daicare",
+			title: "Daicare",
 			logo: {
 				alt: "Daicare logo",
 				src: "img/logo.png",
