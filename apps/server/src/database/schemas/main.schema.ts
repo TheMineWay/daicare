@@ -1,6 +1,7 @@
-// Identity
+export { dietSchema } from "@database/schemas/main/tables/diet/diet.schema";
+export { foodTable } from "@database/schemas/main/tables/diet/food.table";
+export { mealTable } from "@database/schemas/main/tables/diet/meal.table";
 export { identitySchema } from "@database/schemas/main/tables/identity/identity.schema";
-
 export { permissionTable } from "@database/schemas/main/tables/identity/permission.table";
 export { rolePermissionTable } from "@database/schemas/main/tables/identity/role-permission.table";
 export { roleTable } from "@database/schemas/main/tables/identity/role.table";
